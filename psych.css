@@ -1,0 +1,319 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+   
+}
+
+
+
+.nbar{
+    background-color: rgb(36, 36, 36);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+
+      
+}
+
+
+.nbar li {
+    display: inline;
+}
+
+.nbar  li:hover{
+    color: rgb(216, 35, 35);
+    background-color: #454343;
+    padding: 7px;
+}
+
+
+.nbar p{
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+}
+
+
+.nbar h4{
+    margin: 5px;
+    padding: 5px;
+}
+
+
+
+
+ 
+.welcome{
+    overflow: auto;
+    background-size: cover;
+    background-image: radial-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7)), url("starry.png");
+    height: auto;
+
+}
+
+.welcome:hover{
+    background-image: radial-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7)), url("https://64.media.tumblr.com/bd1237abab6e54a2ddd24066b8f084f1/59687810a3b5f4ca-fa/s540x810/204a80680a74ff27734182eadb87bacec6036b5e.gif");
+}
+
+.welcome p{
+    margin: 10px;
+    margin-top: 105px;
+    margin-bottom: 105px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 10px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    background: -webkit-linear-gradient(#fffefe, #ff00bf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+    
+}
+
+.pluck{
+    margin-bottom: 150px;
+    
+}
+
+
+
+
+
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+#textp{
+    margin: 10px;
+    margin-top: 80px;
+    margin-bottom: 75px;
+    padding: 10px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    background: -webkit-radial-gradient(#c19393, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    
+}
+
+
+.plu1 h4{
+margin: 10px;
+margin-top: 50px;
+margin-bottom: 2px;
+padding: 10px;
+color: white;
+text-align: center;
+font-size: 30px;
+font-weight: 600;
+
+
+}
+
+.plu1 p{
+
+text-align: center;
+border-left: 50px;
+border-right: 50px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: white;
+}
+
+.plu1{
+    width: 20vw;
+    height: 27vh;
+    border: 10px;
+    background-size: cover;
+    background-image: radial-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7)), url("row1.png");
+    padding: 5px;
+    border-radius: 5px;  
+    box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+
+.plu1:hover{
+    width: 25vw;
+    height: 30vh;
+    box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.plu3:hover{
+    width: 25vw;
+    height: 30vh;
+    box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.plu2:hover{
+    width: 25vw;
+    height: 30vh;
+    box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+
+.plu2 h4{
+    margin: 10px;
+margin-top: 50px;
+margin-bottom: 2px;
+padding: 10px;
+color: white;
+text-align: center;
+font-size: 30px;
+font-weight: 600;
+   
+    }
+
+
+.plu2 p{
+   
+    text-align: center;
+    border-left: 50px;
+    border-right: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    }
+    
+    
+.plu2{
+    width: 20vw;
+    height: 27vh;
+    border: 10px;
+    background-size: cover;
+    background-image: radial-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7)), url("row2.png");
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+
+.plu3 p{
+    text-align: center;
+    border-left: 50px;
+    border-right: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+        }
+        
+.plu3{
+    width: 20vw;
+    height: 27vh;
+    border: 10px;
+    background-size: cover;
+    background-image: radial-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7)), url("row3.png");
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+.plu3 h4{
+
+    margin: 10px;
+    margin-top: 50px;
+    margin-bottom: 2px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.about{
+    overflow: auto;
+    background-size: cover;
+    background-image: radial-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7)), url("about.png");
+    height: auto;
+}
+
+.about h4{
+    margin: 10px;
+    margin-top: 80px;
+    margin-bottom: 75px;
+    padding: 10px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    background: -webkit-radial-gradient(#c19393, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+
+.about p{
+    margin: 10px;
+    margin-top: 105px;
+    margin-bottom: 105px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 10px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    background: -webkit-linear-gradient(#fffefe, #ffe6f9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+}
+
+
+
+
+@media screen and (max-width: 680px)
+{
+
+    .welcome{
+        overflow: auto;
+        background-size: cover;
+        background-image: radial-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7)), url("vangogh.png");
+        height: auto;
+        
+    }
+    
+    .welcome p{
+        margin: 10px;
+        margin-top: 75px;
+        margin-bottom: 75px;
+        padding: 10px;
+        color: aliceblue;
+        text-align: center;
+        font-size: 30px;
+        background: -webkit-linear-gradient(#fffefe, #ff00bf);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 500;
+        
+    }
+    
+    
+    
+#textp{
+    margin: 10px;
+    margin-top: 50px;
+    margin-bottom: 75px;
+    padding: 10px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    background: -webkit-radial-gradient(#c19393, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    
+}
+
+
+}
+
+
